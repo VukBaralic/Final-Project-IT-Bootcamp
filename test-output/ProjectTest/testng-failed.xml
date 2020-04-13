@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ProjectTest]">
+  <test thread-count="5" name="TestingWebSite(failed)">
+    <classes>
+      <class name="test.itbootcamp.project.TestRegister30Users">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="testRegisterUsers"/>
+          <include name="off"/>
+        </methods>
+      </class> <!-- test.itbootcamp.project.TestRegister30Users -->
+    </classes>
+  </test> <!-- TestingWebSite(failed) -->
+</suite> <!-- Failed suite [ProjectTest] -->

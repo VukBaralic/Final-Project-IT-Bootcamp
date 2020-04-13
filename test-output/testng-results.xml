@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ProjectTest" duration-ms="328103" started-at="2020-04-10T23:32:52 CEST" finished-at="2020-04-10T23:38:21 CEST">
+    <groups>
+    </groups>
+    <test name="TestingWebSite" duration-ms="328103" started-at="2020-04-10T23:32:52 CEST" finished-at="2020-04-10T23:38:21 CEST">
+      <class name="test.itbootcamp.project.TestRegister30Users">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.itbootcamp.project.TestRegister30Users@56aac163]" name="openBrowser" is-config="true" duration-ms="9527" started-at="2020-04-10T23:34:05 CEST" finished-at="2020-04-10T23:34:14 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="testRegisterUsers()[pri:0, instance:test.itbootcamp.project.TestRegister30Users@56aac163]" name="testRegisterUsers" duration-ms="245303" started-at="2020-04-10T23:34:14 CEST" finished-at="2020-04-10T23:38:20 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterUsers -->
+        <test-method status="PASS" signature="off()[pri:0, instance:test.itbootcamp.project.TestRegister30Users@56aac163]" name="off" is-config="true" duration-ms="817" started-at="2020-04-10T23:38:20 CEST" finished-at="2020-04-10T23:38:21 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- off -->
+      </class> <!-- test.itbootcamp.project.TestRegister30Users -->
+      <class name="test.itbootcamp.project.TestLogin">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.itbootcamp.project.TestLogin@184f6be2]" name="openBrowser" is-config="true" duration-ms="9401" started-at="2020-04-10T23:33:48 CEST" finished-at="2020-04-10T23:33:57 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:test.itbootcamp.project.TestLogin@184f6be2]" name="testLogin" duration-ms="6660" started-at="2020-04-10T23:33:57 CEST" finished-at="2020-04-10T23:34:04 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="close()[pri:0, instance:test.itbootcamp.project.TestLogin@184f6be2]" name="close" is-config="true" duration-ms="867" started-at="2020-04-10T23:34:04 CEST" finished-at="2020-04-10T23:34:05 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.itbootcamp.project.TestLogin -->
+      <class name="test.itbootcamp.project.TestCartAndRegistration">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.itbootcamp.project.TestCartAndRegistration@6895a785]" name="openBrowser" is-config="true" duration-ms="9455" started-at="2020-04-10T23:33:18 CEST" finished-at="2020-04-10T23:33:27 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="testDressesInCart()[pri:1, instance:test.itbootcamp.project.TestCartAndRegistration@6895a785]" name="testDressesInCart" duration-ms="12632" started-at="2020-04-10T23:33:27 CEST" finished-at="2020-04-10T23:33:40 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDressesInCart -->
+        <test-method status="PASS" signature="testRegistrationAndLogIn()[pri:2, instance:test.itbootcamp.project.TestCartAndRegistration@6895a785]" name="testRegistrationAndLogIn" duration-ms="7187" started-at="2020-04-10T23:33:40 CEST" finished-at="2020-04-10T23:33:47 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationAndLogIn -->
+        <test-method status="PASS" signature="close()[pri:0, instance:test.itbootcamp.project.TestCartAndRegistration@6895a785]" name="close" is-config="true" duration-ms="765" started-at="2020-04-10T23:33:47 CEST" finished-at="2020-04-10T23:33:48 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.itbootcamp.project.TestCartAndRegistration -->
+      <class name="test.itbootcamp.project.TestSummerDress">
+        <test-method status="PASS" signature="driverManage()[pri:0, instance:test.itbootcamp.project.TestSummerDress@48503868]" name="driverManage" is-config="true" duration-ms="11317" started-at="2020-04-10T23:32:53 CEST" finished-at="2020-04-10T23:33:04 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverManage -->
+        <test-method status="PASS" signature="testWomenToSummerDresses()[pri:1, instance:test.itbootcamp.project.TestSummerDress@48503868]" name="testWomenToSummerDresses" duration-ms="7676" started-at="2020-04-10T23:33:04 CEST" finished-at="2020-04-10T23:33:12 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWomenToSummerDresses -->
+        <test-method status="PASS" signature="testDressesToSummerDresses()[pri:2, instance:test.itbootcamp.project.TestSummerDress@48503868]" name="testDressesToSummerDresses" duration-ms="2718" started-at="2020-04-10T23:33:12 CEST" finished-at="2020-04-10T23:33:14 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDressesToSummerDresses -->
+        <test-method status="PASS" signature="testSamePageForFirtsTwoTests()[pri:3, instance:test.itbootcamp.project.TestSummerDress@48503868]" name="testSamePageForFirtsTwoTests" duration-ms="2918" started-at="2020-04-10T23:33:14 CEST" finished-at="2020-04-10T23:33:17 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSamePageForFirtsTwoTests -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:test.itbootcamp.project.TestSummerDress@48503868]" name="closeDriver" is-config="true" duration-ms="756" started-at="2020-04-10T23:33:17 CEST" finished-at="2020-04-10T23:33:18 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- test.itbootcamp.project.TestSummerDress -->
+    </test> <!-- TestingWebSite -->
+  </suite> <!-- ProjectTest -->
+</testng-results>
